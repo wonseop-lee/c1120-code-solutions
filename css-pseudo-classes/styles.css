@@ -1,20 +1,18 @@
-button {
+.custom-button {
   padding: 8px 25px;
   font-size: 20px;
 }
 
-button:hover {
+.custom-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+table.striped thead > tr {
   background-color: black;
   color: white;
 }
-
-th {
-  background-color: black;
-  color: white
-}
-tr {
+table.striped tbody > tr:nth-child(odd) {
   background-color: lightgray;
-}
-tr:nth-child(2n) {
-  background-color: white;
 }
