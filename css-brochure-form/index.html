@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Challenge - Brochure Form</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <h2 class="login-title">LEARN MORE</h2>
+  </div>
+
+  <form action="">
+    <fieldset>
+    <label class="label" for="uemail">COMPANY EMAIL</label>
+    <div class="inputs">
+      <input type="email" placeholder="sally@company.co" id="uemail" name="email">
+    </div>
+
+    <label class="label" for="uname"">NAME</label>
+    <div class="inputs">
+      <input type="text" placeholder="Sally Smith" id="uname" name="name">
+    </div>
+
+    <label class="label" for="ulocation">WHERE ARE YOU HIRING?</label>
+    <div class="inputs">
+      <input type="text" placeholder="City, Country" id="ulocation" name="where">
+    </div>
+
+    <label class="label" for="ucount">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS</label>
+    <div class="inputs">
+      <select name="count" id="ucount">
+        <option value="2">1-2 Engineers</option>
+        <option value="4">3-4 Engineers</option>
+        <option value="6">5-6 Engineers</option>
+        <option value="7">7 or More Engineers</option>
+      </select>
+    </div>
+
+    <button class="button">SUBMIT</button>
+    </fieldset>
+  </form>
+</body>
+</html>
