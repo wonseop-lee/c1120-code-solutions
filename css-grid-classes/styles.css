@@ -1,0 +1,16 @@
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-half, .column-one-third, .column-one-fourth{
+  width: 100%;
+}
+img {
+  width: 100%;
+}
