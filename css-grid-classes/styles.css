@@ -8,9 +8,18 @@
   justify-content: center;
 }
 
-.column-one-half, .column-one-third, .column-one-fourth{
-  width: 100%;
+.column-one-half {
+  width: calc(100% / 2);
 }
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-one-fourth {
+  width: calc(100% / 4);
+}
+
 img {
   width: 100%;
 }
