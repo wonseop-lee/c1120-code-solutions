@@ -1,0 +1,61 @@
+.container {
+  margin: 0 auto;
+  background-color: #3396da;
+  padding: 2em 6em;
+}
+
+.title, .subtitle, .description {
+  color: white;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+.description {
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row:nth-child(2) {
+  margin-bottom: 1em;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+  padding: 0 1.5em;
+}
+
+.icon {
+  width: 100%;
+  padding: 25%;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 97px;
+  height: 97px;
+  margin: 0 auto;
+}
+
+.column-full {
+  width: 100%
+}
+
+.description {
+  font-size: 12.5px;
+  line-height: 1.4em;
+  padding: 0 1em;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 0;
+}
+
+.title {
+  font-size: 27.6px;
+}
