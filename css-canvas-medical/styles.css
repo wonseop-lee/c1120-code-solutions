@@ -1,0 +1,210 @@
+.container {
+  margin: 1rem 3rem;
+}
+
+.top-menu-container {
+  margin: 0 auto;
+  height: 70px;
+}
+
+.narrower-width { /*applies to menu bar, hero, learn more*/
+  max-width: 900px;
+}
+
+.wider-width { /*applies to location, sitemap, footer*/
+  max-width: 1100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border-style: none;
+  border-radius: 4px;
+}
+
+.logo-container {
+  width: 150px;
+}
+
+.logo-blue {
+  width: 100%;
+}
+
+.button-container {
+  height: 80%;
+}
+
+.menu-button, .contact-button {
+  font-family: 'avenir', sans-serif;
+  font-size: 15px;
+  padding: 0 18px;
+  margin-left: 10px;
+  height: 80%;
+}
+
+.menu-button {
+  background-color: white;
+  color: rgb(150, 150, 150);
+}
+
+.contact-button {
+  background-color: #294464;
+  color: #ffffff;
+}
+
+.line {
+  width: 70%;
+  min-width: 1000px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.first-part {
+  background-image: url("images/hero.jpg");
+  background-color: #dddddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.first-part, .shade {
+  margin: 2rem auto;
+  height: 480px;
+}
+.shade {
+  background-color: rgba(0, 0, 0, 0.20);
+}
+
+.started-button {
+  background-color: #294464;
+  color: #ffffff;
+  width: 160px;
+  height: 45px;
+  font-size: 15px;
+  font-family: "avenir", sans-serif;
+}
+
+.first-part .started-button {
+  position: absolute;
+  bottom: 13%;
+  left: 6%;
+}
+
+h1, .first-part p {
+  position: absolute;
+  color: white;
+}
+
+h1 {
+  font-family: "Tiempos Headline", serif;
+  top: 11%;
+  left: 6%
+}
+
+.first-part p {
+  top: 32%;
+  left: 6%;
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: 13px;
+}
+
+.location {
+  background-color: rgb(245, 245, 245);
+  margin: 3rem auto 0;
+  padding: 3rem 4rem 5rem;
+}
+
+h2 {
+  font-family: "tiempos headline", serif;
+  color: gray;
+}
+
+h3, p, h4{
+  font-family: 'avenir', sans-serif;
+  color: gray;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  flex-basis: 50%;
+}
+
+.top-row {
+  text-align: center;
+}
+
+.bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sitemap {
+  background-color: #525351;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 4rem;
+  margin: 0 auto;
+}
+
+.logo-white {
+  width: 120px;
+}
+
+.sitemap p, .sitemap h3 {
+  color: #f1f1f1;
+}
+
+.sitemap h3 {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+p.sitemap-menu{
+  line-height: 2rem;
+  font-size: 15px;
+}
+
+p.contact {
+  line-height: 1.3rem;
+}
+
+.left-column {
+  flex-basis: 50%;
+}
+
+.middle-column, .right-column {
+  flex-basis: 25%;
+}
+
+.footer {
+  background-color: rgb(245, 245, 245);
+  padding: 2em 5rem;
+  display: flex;
+  margin: 0 auto;
+}
+h4 {
+  margin: 0;
+  flex-basis: 15%;
+  font-size: 14px;
+}
