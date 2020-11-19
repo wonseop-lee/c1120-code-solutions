@@ -1,0 +1,40 @@
+.container {
+  font-family: 'dm sans', sans-serif;
+  width: 1450px;
+  margin: 0 auto;
+}
+
+.column-container {
+  display: flex;
+}
+
+.product {
+  flex-basis: 20%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+img {
+  height: 400px;
+  width: 266px;
+  object-fit: cover;
+}
+
+.gray {
+  color: lightgray;
+}
+
+.sale-price {
+  background-color: #fff2e7;
+}
+
+.retail-price {
+  text-decoration: line-through;
+}
