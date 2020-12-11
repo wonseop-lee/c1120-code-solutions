@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  border: solid 2px black;
+}
+
+img {
+  width: 350px;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.row > span {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.col > span {
+  font-size: 40px;
+}
+
+div.container {
+  display: flex;
+}
+
+div.big-container {
+  margin: 15% auto;
+  width: 80%;
+  min-width: 540px;
+}
+
+div.row {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
