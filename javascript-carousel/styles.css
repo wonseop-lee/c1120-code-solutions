@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-div {
-  border: solid 2px black;
-}
-
 img {
   width: 350px;
 }
