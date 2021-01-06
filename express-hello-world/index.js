@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 app.use(function (req, res) {
-  console.log(req.method); // delete before commit
   res.send('Hello World!')
 });
 
