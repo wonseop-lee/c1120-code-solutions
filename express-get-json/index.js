@@ -23,13 +23,13 @@ const grades = {
   }
 };
 
-app.listen(3000, () => {
-  console.log('Listening on port 3000!');
-});
-
 app.get('/api/grades', function(req, res) {
   for (const obj in grades) {
     arr.push(grades[obj]);
   }
   res.json(arr);
+});
+
+app.listen(3000, () => {
+  console.log('Listening on port 3000!');
 });
