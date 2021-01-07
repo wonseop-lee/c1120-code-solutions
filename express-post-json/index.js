@@ -4,6 +4,8 @@ const app = express();
 let nextId = 1;
 const grades = {};
 
+app.use(express.json());
+
 app.get('/api/grades', function(req, res) {
   const arr = [];
   for (const grade in grades)  {
@@ -11,8 +13,6 @@ app.get('/api/grades', function(req, res) {
   };
   res.json(arr);
 });
-
-app.use(express.json());
 
 app.post('/api/grades', function(req, res) {
   res.status(201);
