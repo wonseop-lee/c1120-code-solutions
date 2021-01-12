@@ -1,3 +1,3 @@
 update "countries"
 set "name" = 'Murica'
-where "name" = 'United States'
+where "name" = 'United States';
