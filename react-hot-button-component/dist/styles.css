@@ -1,0 +1,24 @@
+.three-under {
+  background-color: #361c75;
+  color: #ffffff;
+}
+.six-under {
+  background-color: #674ea7;
+  color: #ffffff;
+}
+.nine-under {
+  background-color: #e06766;
+  color: #ffffff
+}
+.twelve-under {
+  background-color: #f6b26b;
+}
+.fifteen-under {
+  background-color: #fffb02;
+}
+.eighteen-under {
+  background-color: #ffffff;
+}
+button:active {
+  color: red;
+}
