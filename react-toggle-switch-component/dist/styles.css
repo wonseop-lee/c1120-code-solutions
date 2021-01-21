@@ -1,0 +1,41 @@
+.container {
+  height: 30px;
+  width: 60px;
+  border-radius: 18px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+div.toggled {
+  background-color: #6ba74f;
+  transition-duration: 0.2s;
+}
+
+div.notToggled {
+  background-color: #e2e2e2;
+  transition-duration: 0.2s;
+}
+
+button.toggled {
+  transition-duration: 0.2s;
+  left: 30px;
+}
+
+button.notToggled {
+  transition-duration: 0.2s;
+  left: 0;
+}
+
+button {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  border: solid black 2px;
+  outline: solid gray 1px;
+}
+
+p {
+  margin: 1rem;
+  display: inline-block;
+}
