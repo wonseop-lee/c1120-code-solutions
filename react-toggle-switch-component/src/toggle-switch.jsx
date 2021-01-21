@@ -6,6 +6,9 @@ class ToggleSwitch extends React.Component {
     this.state = {
       isToggled: false
     };
+    this.className = 'notToggled';
+    this.containerName = 'container notToggled';
+    this.onOrOff = 'OFF';
     this.handleToggle = this.handleToggle.bind(this);
   }
 
