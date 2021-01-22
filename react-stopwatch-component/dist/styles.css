@@ -1,0 +1,28 @@
+button {
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  margin-left: 64px;
+  border: none;
+}
+
+button:focus {
+  color: gray;
+}
+
+i {
+  font-size: 50px;
+}
+
+.counter-container {
+  height: 200px;
+  width: 200px;
+  border: solid black 3px;
+  border-radius: 50%;
+}
+
+.count {
+  text-align: center;
+  font-size: 40px;
+  margin: 77px 0;
+}
