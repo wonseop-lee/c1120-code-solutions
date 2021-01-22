@@ -1,0 +1,26 @@
+p {
+  color: red;
+}
+
+label {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-right: 1rem;
+}
+
+i {
+  font-size: 25px;
+  line-height: 1px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
